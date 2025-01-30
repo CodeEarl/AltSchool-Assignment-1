@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 20px 20px 15px;
+}
+li a{
+    border: 1px solid grey;
+    padding: 5px 10px;
+    display: block;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+}
+li a:hover{
+    background-color: #267af0;
+    color: white;
+    transform: scale(1.11);
+}
+a{
+    text-decoration: none;
+}
+.text{
+    margin: 5px 20px;
+}
+h4{
+    float: right;
+}
+h1{
+    margin: 10px 0;
+}
+p{
+    color: grey;
+}
+form{
+    max-width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    gap: 5px;
+}
+input, select{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.nineth{
+    grid-column: span 2;
+}
+.nineth select{
+    width: 100%;
+}
+.last{
+    margin: 5px 20px;
+}
+.last a{
+    color: blue;
+}
+button{
+    width: 90%;
+    height: 40px;
+    background-color: #0367F2;
+    outline: transparent solid 2px;
+    color: white;
+    border: none;
+    margin: 10px 20px;
+}
