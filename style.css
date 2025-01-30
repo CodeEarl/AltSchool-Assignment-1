@@ -24,52 +24,16 @@ li a:hover{
 a{
     text-decoration: none;
 }
-.text{
+main{
     margin: 5px 20px;
-}
-h4{
-    float: right;
 }
 h1{
+    text-align: center;
     margin: 10px 0;
 }
-p{
-    color: grey;
+section{
+    margin: 15px 0;
 }
-form{
-    max-width: 90%;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    align-items: center;
-    gap: 5px;
-}
-input, select{
-    margin-top: 10px;
-    width: 200px;
-    height: 30px;
-    border-radius: 3px;
-    border: 1px solid gray;
-    padding: 5px 10px;
-}
-.nineth{
-    grid-column: span 2;
-}
-.nineth select{
-    width: 100%;
-}
-.last{
-    margin: 5px 20px;
-}
-.last a{
-    color: blue;
-}
-button{
-    width: 90%;
-    height: 40px;
-    background-color: #0367F2;
-    outline: transparent solid 2px;
-    color: white;
-    border: none;
-    margin: 10px 20px;
+h2{
+    margin: 10px 0;
 }
